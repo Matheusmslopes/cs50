@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
+// Number with '.' For example: 0.43
 int main(void)
 {
     float dollar;
