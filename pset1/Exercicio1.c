@@ -3,11 +3,11 @@
 
 int main(void)
 {
-   // Tipo dos dados
-   int height, row, column, space;
+   // Especifica os Tipos dos dados.
+   int column, height, row, space;
    do
    {
-      // Pede a altura da pirâmide para o usuário
+      // Pede a altura da pirâmide que o usuáriocquer.
       height = get_int("Height: ");
    }
    while (height < 1 || height > 8);
