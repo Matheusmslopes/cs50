@@ -7,7 +7,7 @@ int main(void)
    int column, height, row, space;
    do
    {
-      // Pede a altura da pirâmide que o usuáriocquer.
+      // Pede a altura da pirâmide que o usuário quer.
       height = get_int("Height: ");
    }
    while (height < 1 || height > 8);
