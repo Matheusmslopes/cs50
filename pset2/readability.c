@@ -40,6 +40,7 @@ int main(void)
     S = (float) sentence / (float) word * 100;
     index = round(0.0588 * L - 0.296 * S - 15.8);
     
+    //Informa ao usuário o grau de leitura baseado na grade escolar.
     if (index < 1)
     {
         printf("Before Grade 1\n");
