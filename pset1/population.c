@@ -15,7 +15,7 @@ int main(void)
     int end;
     do
     {
-        end = get_int("Endind population: ");
+        end = get_int("Ending population: ");
     }
     while(start > end);
     
@@ -26,5 +26,6 @@ int main(void)
         year++;
     }
     
+    //Inform the user how long is going to take to reach the ending population.
     printf("Years: %i\n", year);
 }
