@@ -4,9 +4,7 @@
 #include <math.h>
 #include <ctype.h>
 
-// números presentes nas condições são da tabella ASCII
-
-// i= (0.0588 * L) - (0.296 * S) - 15.8;
+// index = (0.0588 * L) - (0.296 * S) - 15.8;
 
 //L = numeros de letras por 100 palavras    S = numero de sentencas por 100 palavras
 
