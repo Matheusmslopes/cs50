@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
+//Prototype
 int get_cents(void);
 int calculate_quarters(int cents);
 int calculate_dimes(int cents);
@@ -9,22 +10,22 @@ int calculate_pennies(int cents);
 
 int main(void)
 {
-    //Ask how many cents the user owed (line 37)
+    //Ask how many cents the user owed (line 38)
     int cents = get_cents();
     
-    //Calculate the number of quarters(25) to give(line 48)
+    //Calculate the number of quarters(25) to give(line 49)
     int quarters = calculate_quarters(cents);
     cents = cents - quarters * 25;
     
-    //Calculate the number of dimes(10) to give(line 59)
+    //Calculate the number of dimes(10) to give(line 60)
     int dimes = calculate_dimes(cents);
     cents = cents - dimes * 10;
     
-    //Calculate the number of nickels(5) to give(line 70)
+    //Calculate the number of nickels(5) to give(line 71)
     int nickels = calculate_nickels(cents);
     cents = cents - nickels * 5;
     
-    //Calculate the number of pennies(1) to give(line 81)
+    //Calculate the number of pennies(1) to give(line 82)
     int pennies = calculate_pennies(cents);
     cents = cents - pennies * 1;
     
