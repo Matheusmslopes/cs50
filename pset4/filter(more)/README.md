@@ -1,6 +1,6 @@
 # Filtros
 
-neste exercício, criei 4 filtros para se aplicar a fotografias. São eles:
+neste exercício do pset4, foram feitos 4 filtros para se aplicar a fotografias. São eles:
 
 * grayscale;
 * reflect;
